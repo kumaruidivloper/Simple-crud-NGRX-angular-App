@@ -1,0 +1,14 @@
+export const LOAD_USERS = 'LOAD_USERS';
+export const GET_USERS = 'GET_USERS';
+
+export const LOAD_DETAIL_USER_BY_ID = 'LOAD_DETAIL_USER_BY_ID';
+export const GET_USER_BY_ID = 'GET_USER_BY_ID';
+
+export const DELETE_USER_SUCCESS = 'DELETE_USER_SUCCESS';
+export const DELETE_USER = 'DELETE_USER';
+
+export const EDIT_USER = 'EDIT_USER';
+export const EDIT_USER_SUCCESS = 'EDIT_USER_SUCCESS';
+
+export const CREATE_USER_SUCCESS = 'CREATE_USER_SUCCESS';
+export const DATA_CREATE_USER = 'DATA_CREATE_USER';
