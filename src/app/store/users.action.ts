@@ -1,4 +1,4 @@
-import {Action} from '@ngrx/store';
+import { Action } from '@ngrx/store';
 import * as Types from './action.types';
 
 export class LoadUsers implements Action {

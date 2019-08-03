@@ -1,9 +1,9 @@
-import {Component, OnInit, OnDestroy} from '@angular/core';
-import {Store} from '@ngrx/store';
-import {FormGroup, FormControl, Validators} from '@angular/forms';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Store } from '@ngrx/store';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 import * as UserActions from './../../store/users.action';
-import {ActivatedRoute, Router} from '@angular/router';
-import {Observable , Subscription} from 'rxjs';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Observable , Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-profile-editor',

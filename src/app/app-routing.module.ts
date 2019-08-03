@@ -1,8 +1,8 @@
-import {NgModule} from '@angular/core';
-import {Routes, RouterModule} from '@angular/router';
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
 
-import {EditAndCreateUserComponent} from './components/edit-and-create-user/edit-and-create-user.component';
-import {UsersComponent} from './components/users/users.component';
+import { EditAndCreateUserComponent } from './components/edit-and-create-user/edit-and-create-user.component';
+import { UsersComponent } from './components/users/users.component';
 
 const routes: Routes = [
   {
@@ -10,7 +10,7 @@ const routes: Routes = [
     component: UsersComponent
   },
   {
-    path: 'user/:id/edit',
+    path: 'user/edit/:id',
     component: EditAndCreateUserComponent
   },
   {

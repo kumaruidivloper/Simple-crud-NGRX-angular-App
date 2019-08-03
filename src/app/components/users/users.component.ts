@@ -1,7 +1,7 @@
-import {Component, OnInit, OnDestroy} from '@angular/core';
-import {Store} from '@ngrx/store';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Store } from '@ngrx/store';
 import * as UserActions from '../../store/users.action';
-import {Observable , Subscription} from 'rxjs';
+import { Observable , Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-users',

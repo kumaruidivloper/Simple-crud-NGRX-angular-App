@@ -1,8 +1,8 @@
-import {Injectable} from '@angular/core';
-import {Effect, Actions, ofType} from '@ngrx/effects';
-import {map, mergeMap} from 'rxjs/operators';
+import { Injectable } from '@angular/core';
+import { Effect, Actions, ofType } from '@ngrx/effects';
+import { map, mergeMap } from 'rxjs/operators';
 
-import {UserService} from '../service/user.service';
+import { UserService } from '../service/user.service';
 
 import * as Types from './action.types';
 import * as UserActions from './users.action';
